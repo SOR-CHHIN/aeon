@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.welcom-eon{
+    background-image: url(https://images.unsplash.com/photo-1567958451986-2de427a4a0be?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxfHxyZXRhaWwlMkMlMjBzaG9wcGluZ3xlbnwwfHx8fDE2OTU3NjU4NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=528&h=624);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 80%;
+    object-fit: cover;
+
+}
+h4{ 
+    font-weight: normal;
+    font-size: 1.8em;
+    font-family: Arial;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+    border-left: 8px solid #a2026e;
+    height: 8vh;
+    color: #b15a83;
+    
+}
+.Tenat{
+    padding: 5px;
+    width: 70%;
+    margin-top: calc(180px);
+    background-color: #ffffff98;
+     
+}
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+img{
+    width: 60%;
+    margin-left: -25px;
+    margin-top: 30px;
+}
+.form-container{
+    display: grid;
+    width: 100%;
+   
+    
+}
+span{
+    
+    font-size: 25px;
+    margin-left: -30px;
+}
+form{
+    width: 100%;
+    margin-left: -20%;   
+}
+.form{
+    font-style: italic;
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+     margin-bottom: 20px
+    
+}
+button{
+    width: 430px;
+    background-color: #a2026e;
+    margin-left: -20%;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    color: #fff;
+
+}
+.back ,a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: #a2026e;
+    margin-top: -30px;
+
+}
